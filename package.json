@@ -1,0 +1,14 @@
+{
+  "name": "manuel-macro-waitlist",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Private-access waitlist for an AI-assisted macro intelligence terminal",
+  "engines": { "node": ">=24.0.0 <25" },
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs",
+    "test": "node --test test/*.test.mjs",
+    "export:waitlist": "node scripts/export.mjs"
+  }
+}
